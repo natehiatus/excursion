@@ -3,16 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Excursion</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Mock Web Page</title>
+    <link rel="stylesheet" href="resources/css/style.css">
 </head>
-<body style="background-color: black; text-align: center;">
+<body>
+    <header>
+        <h1>Welcome to Our Web Page</h1>
+        <p>Explore our resources and enjoy the visuals!</p>
+    </header>
 
-    <!-- Top-most Header -->
-    <h1 class="main-header">Discover hidden places in the world around you</h1>
-    
-    <!-- Link -->
-    <a href="#" class="download-link">Download Excursion (Coming soon!)</a>
+    <main>
+        <!-- Video Component -->
+        <section>
+            <h2>Check Out Our Feature Video</h2>
+            <video controls width="800">
+                <source src="resources/videos/stock-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
 
+        <!-- Supporting Text -->
+        <section>
+            <h2>Discover More</h2>
+            <p>Our content is designed to provide you with the best experience. Dive into our resources and see what we have to offer!</p>
+        </section>
+
+        <!-- Landscape Image -->
+        <section>
+            <h2>Beautiful Landscapes</h2>
+            <p>
+                <img src="resources/images/landscape.jpg" alt="Landscape" width="800">
+            </p>
+        </section>
+
+        <!-- Cellphone Icon -->
+        <section>
+            <h2>Stay Connected</h2>
+            <p>
+                <img src="resources/images/cellphone-icon.png" alt="Cellphone Icon" width="100">
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
